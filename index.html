@@ -13,7 +13,7 @@
     <div class="container">
         <h1>Frequently asked questions?</h1>
         <div class="tab">
-            <input type="radio" name="acc" id="acc1">
+            <input type="radio" name="acc" id="acc1" onchange="toggleTab('acc1')">
             <label for="acc1">
                 <h2>01</h2>
                 <h3>How do I apply?</h3>
@@ -62,6 +62,16 @@
         </div>
     </div>
 
+    <script>
+        function toggleTab(id) {
+            // const elem = document.getElementById(id);
+            // console.log(elem.checked);
+            // if (elem.checked) {
+            //     alert('funciona');
+            // }
+            // // elem.checked = !elem.checked;
+        }
+    </script>
 </body>
 
 </html>
